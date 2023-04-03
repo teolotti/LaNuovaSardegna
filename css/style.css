@@ -1,4 +1,17 @@
+@media (min-width: 1200px){
+    .content{
+    max-width: 1200px;
+    }
+}
 
+.content{
+    width: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+    background-color: #ffffff;
+}
 div#share{
     display: flex;
     flex-direction: row;
@@ -8,8 +21,8 @@ div#newsletter{
     display: flex;
     flex-direction: row;
 }
-div#img_nl{
-     padding: 15px;
+.img_style{
+    padding: 15px;
 }
 
 div#social{
@@ -17,8 +30,96 @@ div#social{
     flex-direction: row;
 }
 
-div.img_social{
+.img_social{
     padding: 15px;
 }
 
+div#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div#sfoglia{
+    display: flex;
+    flex-direction: row;
+}
+.top{
+    color: #004272;
+    font-weight: bolder;
+    font-size: 60px;
+    height: 15px;
+    margin-top: -5px;
+}
+.sub{
+    font-weight: lighter;
+    text-align: right;
+    font-size: 20px;
+}
+
+div#user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 250px;
+    align-items: center;
+}
+.Accesso{
+    display: flex;
+    flex-direction: row;
+}
+.Abbonamento{
+    display: flex;
+    flex-direction: row;
+    background-color: #660e17;
+    color: #ffffff;
+    margin-bottom: auto;
+    line-height: 0;
+}
+.abb{
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004272;
+    color: #ffffff;
+    line-height: 0;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hb{
+    width: 20px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 4px 0;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px;
+}
+.item{
+    padding: 10px;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #004272;
+    color: #ffffff;
+    padding: 10px;
+}
 
