@@ -1,6 +1,6 @@
-@media (min-width: 1200px){
+@media (min-width: 1020px){
     .content{
-    max-width: 1200px;
+    max-width: 1020px;
     }
 }
 
@@ -15,14 +15,16 @@
 div#share{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
 div#newsletter{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .img_style{
-    padding: 15px;
+    margin: 4px;
 }
 
 div#social{
@@ -44,6 +46,7 @@ div#main{
 div#sfoglia{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .top{
     color: #004272;
@@ -62,34 +65,40 @@ div#user{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-width: 250px;
+    min-width: 200px;
     align-items: center;
 }
 .Accesso{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .Abbonamento{
     display: flex;
     flex-direction: row;
-    background-color: #660e17;
+    background-color: #8c131f;
     color: #ffffff;
     margin-bottom: auto;
     line-height: 0;
 }
+.acc{
+    text-align: center;
+    font-size: smaller;
+}
 .abb{
     text-align: center;
     color: #ffffff;
-    padding: 10px;
+    padding: 5px;
 }
 .nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #004272;
     color: #ffffff;
-    line-height: 0;
+    height: 100px;
 }
 .menu{
     display: flex;
@@ -106,12 +115,14 @@ div#user{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    background-color: #004272;
     color: #ffffff;
     padding: 10px;
 }
 .item{
-    padding: 10px;
     text-align: center;
+    font-size: smaller;
 }
 
 .search{
@@ -120,6 +131,6 @@ div#user{
     align-items: center;
     background-color: #004272;
     color: #ffffff;
-    padding: 10px;
+    margin: 10px;
 }
 
