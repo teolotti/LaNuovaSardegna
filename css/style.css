@@ -24,7 +24,8 @@ div#newsletter{
     align-items: center;
 }
 .img_style{
-    margin: 4px;
+    margin-right: 5px;
+    margin-left: 10px;
 }
 
 div#social{
@@ -58,7 +59,7 @@ div#sfoglia{
 .sub{
     font-weight: lighter;
     text-align: right;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 div#user{
@@ -98,7 +99,7 @@ div#user{
     align-items: center;
     background-color: #004272;
     color: #ffffff;
-    height: 100px;
+    height: 50px;
 }
 .menu{
     display: flex;
@@ -131,6 +132,19 @@ div#user{
     align-items: center;
     background-color: #004272;
     color: #ffffff;
-    margin: 10px;
+    margin-right: 10px;
 }
+
+.scelta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.scegli{
+    font-size: medium;
+    font-weight: BOLD;
+}
+
 
