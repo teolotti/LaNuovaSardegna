@@ -65,7 +65,7 @@ div#sfoglia{
 div#user{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     min-width: 200px;
     align-items: center;
 }
@@ -88,6 +88,7 @@ div#user{
 }
 .abb{
     text-align: center;
+    font-size: smaller;
     color: #ffffff;
     padding: 5px;
 }
@@ -107,10 +108,10 @@ div#user{
     align-items: center;
 }
 .hb{
-    width: 20px;
-    height: 2px;
+    width: 15px;
+    height: 1.5px;
     background-color: #ffffff;
-    margin: 4px 0;
+    margin: 3px 0;
 }
 .center{
     display: flex;
@@ -140,11 +141,23 @@ div#user{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    height: 40px;
 }
 
 .scegli{
     font-size: medium;
     font-weight: BOLD;
+}
+.edizioni{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+
+}
+.town{
+    font-size: 15px;
 }
 
 
