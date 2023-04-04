@@ -159,5 +159,10 @@ div#user{
 .town{
     font-size: 15px;
 }
-
-
+.line{
+    border-top: 1px solid #000000;
+}
+.line1{
+    width: 99%;
+    border-top: 1px solid #000000;
+}
