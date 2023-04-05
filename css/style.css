@@ -1,3 +1,18 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Franklin Gothic Book", sans-serif;
+    font-size: 15px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
 @media (min-width: 1020px){
     .content{
     max-width: 1020px;
@@ -12,13 +27,13 @@
     display: block;
     background-color: #ffffff;
 }
-div#share{
+.share{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-div#newsletter{
+.newsletter{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,7 +43,7 @@ div#newsletter{
     margin-left: 10px;
 }
 
-div#social{
+.social{
     display: flex;
     flex-direction: row;
 }
@@ -52,11 +67,13 @@ div#sfoglia{
 .top{
     color: #004272;
     font-weight: bolder;
+    font-family: "", serif;
     font-size: 60px;
     height: 15px;
     margin-top: -5px;
 }
 .sub{
+    font-family: "", serif;
     font-weight: lighter;
     text-align: right;
     font-size: 15px;
@@ -81,6 +98,7 @@ div#user{
     color: #ffffff;
     margin-bottom: auto;
     line-height: 0;
+    padding: 10px;
 }
 .acc{
     text-align: center;
@@ -90,7 +108,7 @@ div#user{
     text-align: center;
     font-size: smaller;
     color: #ffffff;
-    padding: 5px;
+
 }
 .nav{
     display: flex;
@@ -116,7 +134,7 @@ div#user{
 .center{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #004272;
     color: #ffffff;
@@ -146,23 +164,77 @@ div#user{
 
 .scegli{
     font-size: medium;
-    font-weight: BOLD;
+    font-weight: bold;
 }
-.edizioni{
+.list{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     height: 20px;
-
+    margin-left: 8px;
+    margin-right: 8px;
 }
 .town{
     font-size: 15px;
+    font-weight: bold;
 }
 .line{
-    border-top: 1px solid #000000;
+    border-top: 1px #000000;
 }
 .line1{
-    width: 99%;
+    width: 98%;
     border-top: 1px solid #000000;
+}
+
+.line2{
+    width: 100%;
+    border-top: 1px solid #000000;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.info{
+    font-size: 18px;
+}
+
+.footer{
+    background-color: #063a74;
+}
+
+@media (min-width: 1020px){
+    .foot_content{
+        max-width: 1020px;
+    }
+}
+
+.foot_content{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    color: #ffffff;
+    width: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    padding: 15px;
+}
+.img_foot{
+     flex-basis: 100%;
+     width: 100%;
+ }
+.text_foot{
+    flex-basis: 100%;
+}
+.line3{
+    width: 98%;
+    border-top: thin #ffffff;
 }
