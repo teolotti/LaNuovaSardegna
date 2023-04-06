@@ -67,12 +67,15 @@ div#sfoglia{
 .top{
     color: #004272;
     font-weight: bolder;
-    font-family: "", serif;
-    font-size: 60px;
+    font-family: "Impact", serif;
+    font-size: 80px;
     height: 15px;
-    margin-top: -5px;
+    margin-block-start: -1rem;
+    text-align: center;
+
 }
 .sub{
+    padding-top: 12px;
     font-family: "", serif;
     font-weight: lighter;
     text-align: right;
@@ -134,11 +137,12 @@ div#user{
 .center{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #004272;
     color: #ffffff;
     padding: 10px;
+    flex-basis: 60%;
 }
 .item{
     text-align: center;
@@ -163,6 +167,7 @@ div#user{
 }
 
 .scegli{
+    text-align: center;
     font-size: medium;
     font-weight: bold;
 }
@@ -237,4 +242,73 @@ div#user{
 .line3{
     width: 98%;
     border-top: thin #ffffff;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #ffffff;
+    width: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+}
+.sx_side{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 66.6666667%;
+    width: 66.6666667%;
+}
+.dx_side{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 33.3333333%;
+    width: 33.3333333%;
+}
+.img_title{
+    flex-basis: 100%;
+    max-width: 100%;
+    height:auto;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.img{
+    flex-basis: 100%;
+    max-width:100%;
+    width:100%;
+    height:auto;
+}
+.title2{
+    flex-basis: 100%;
+}
+.theme{
+    font-size: 20px;
+    font-weight: normal;
+    color: #921421;
+    text-align: left;
+    font-family: PoynterOldstyleDisplay-NarBold, serif;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+}
+
+.big_title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+    font-family: PoynterOldstyleDisplay-NarBold, serif;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+}
+.small_title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+    font-family: PoynterOldstyleDisplay-NarBold, serif;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
 }
