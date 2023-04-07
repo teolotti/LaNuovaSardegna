@@ -52,14 +52,14 @@ body{
     padding: 15px;
 }
 
-div#main{
+.main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-div#sfoglia{
+.sfoglia{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -358,6 +358,7 @@ div#user{
     flex-basis: 31%;
     margin-left: 10px; /*come vuoi, controlla con responsivity*/
     margin-block-start: 0.5em;
+    height: fit-content;
 }
 .side_title{
     font-size: 22px;
