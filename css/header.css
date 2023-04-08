@@ -1,0 +1,160 @@
+.share{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.newsletter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img_style{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+}
+
+.img_social{
+    padding: 15px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sfoglia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.top{
+    color: #004272;
+    font-weight: bolder;
+    font-family: "Impact", serif;
+    font-size: 80px;
+    height: 15px;
+    margin-block-start: -1rem;
+    text-align: center;
+
+}
+.sub{
+    padding-top: 12px;
+    font-family: "", serif;
+    font-weight: lighter;
+    text-align: right;
+    font-size: 15px;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-width: 200px;
+    align-items: center;
+}
+.Accesso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Abbonamento{
+    display: flex;
+    flex-direction: row;
+    background-color: #8c131f;
+    color: #ffffff;
+    margin-bottom: auto;
+    line-height: 0;
+    padding: 10px;
+}
+.acc{
+    text-align: center;
+    font-size: smaller;
+}
+.abb{
+    text-align: center;
+    font-size: smaller;
+    color: #ffffff;
+
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #004272;
+    color: #ffffff;
+    height: 4%;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hb{
+    width: 15px;
+    height: 1.5px;
+    background-color: #ffffff;
+    margin: 3px 0;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004272;
+    color: #ffffff;
+    padding: 10px;
+    flex-basis: 60%;
+}
+.item{
+    text-align: center;
+    font-size: smaller;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #004272;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.scelta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.scegli{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.town{
+    font-size: 13px;
+    font-weight: bold;
+}
+.line{
+    border-top: 1px #000000;
+}
