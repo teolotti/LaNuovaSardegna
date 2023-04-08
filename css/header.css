@@ -1,3 +1,57 @@
+@media screen and (max-width: 600px) {
+    .title{
+        order: 1;
+        flex-basis: 100%;
+    }
+    .sfoglia{
+        order: 2;
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .user{
+        order: 3;
+        flex-basis: 50%;
+        max-width: 50%;
+        justify-content: flex-end !important;
+    }
+    .Accesso{
+        padding-right: 15px;
+    }
+    .main{
+        flex-wrap: wrap;
+    }
+    .sub{
+        margin-right: 23%;
+    }
+
+    .menu{
+        order: 1;
+        flex-basis: 33%;
+        max-width: 33%;
+    }
+    .search{
+        order: 2;
+        flex-basis: 33%;
+        max-width: 33%;
+        margin-right: 0 !important;
+        justify-content: flex-end;
+    }
+    .center{
+        flex-wrap: wrap;
+        flex-basis: 100% !important;
+        order: 3;
+        justify-content: center !important;
+    }
+    .item{
+        flex-basis: 33%;
+        max-width: 33%;
+    }
+    .nav{
+        margin-block-start: 10px;
+    }
+}
+
+
 .share{
     display: flex;
     flex-direction: row;
