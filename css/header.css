@@ -1,17 +1,17 @@
 @media screen and (max-width: 600px) {
     .title{
         order: 1;
-        flex-basis: 100%;
+        flex-basis: 55%;
     }
     .sfoglia{
         order: 2;
-        flex-basis: 50%;
-        max-width: 50%;
+        flex-basis: 48%;
+        max-width: 48%;
     }
     .user{
         order: 3;
-        flex-basis: 50%;
-        max-width: 50%;
+        flex-basis: 48%;
+        max-width: 48%;
         justify-content: flex-end !important;
     }
     .Accesso{
@@ -19,9 +19,10 @@
     }
     .main{
         flex-wrap: wrap;
+        justify-content: center !important;
     }
     .sub{
-        margin-right: 23%;
+        justify-self: flex-end;
     }
 
     .menu{
