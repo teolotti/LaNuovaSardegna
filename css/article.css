@@ -1,3 +1,26 @@
+@media screen and (max-width: 600px){
+    .big{
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+        margin-block-start: 1em;
+    }
+    .mid{
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+    }
+    .little{
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+        margin-block-start: 1em;
+    }
+    .little#init{
+        margin-block-start: 1em !important;
+        margin-block-end: 1em;
+    }
+}
+
+
+
 .section{
     display: flex;
     flex-direction: row;
