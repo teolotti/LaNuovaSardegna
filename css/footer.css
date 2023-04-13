@@ -1,40 +1,4 @@
-@media screen and (max-width: 600px){
-    .title_foot{
-        order: 1;
-        flex-basis: 30% !important;
-    }
-    .social_foot{
-        order: 2;
-        flex-basis: 100%;
-        max-width: 100%;
-        justify-content: center;
-    }
-    .bottom{
-        justify-content: center !important;
-        margin-block-start: 1em;
-        margin-block-end: -1em;
-    }
-    .top#foot_top{
-        font-size: 40px;
-        justify-content: center;
-    }
-    .sub#foot_sub{
-        padding-top: 0;
-        font-size: 8px;
-    }
-    .list#foot{
-        flex-wrap: wrap;
-        justify-content: center !important;
-        margin-block-start: -1em;
-    }
-    .info{
-        flex-basis: 100%;
-        max-width: 100%;
-        text-align: center;
-        margin-block: 0.5em;
-    }
 
-}
 .end{
     height: auto;
 }
@@ -63,7 +27,9 @@
 }
 
 .info{
-    font-size: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .footer{
@@ -100,4 +66,57 @@
 .line3{
     width: 98%;
     border-top: thin #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+    .title_foot {
+        order: 1;
+        flex-basis: 30% !important;
+        margin-block-start: 1em;
+    }
+
+    .social_foot {
+        order: 2;
+        flex-basis: 100%;
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .bottom {
+        justify-content: center !important;
+        margin-block-start: 1em;
+        margin-block-end: -1em;
+    }
+
+    .top#foot_top {
+        font-size: 40px;
+        justify-content: center;
+    }
+
+    .sub#foot_sub {
+        padding-top: 0;
+        font-size: 8px;
+    }
+
+    .list#foot {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        margin-block-start: -1em;
+    }
+
+    .info {
+        flex-basis: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-block: 0.5em;
+    }
+
+    .foot_content {
+        justify-content: center !important;
+    }
+
+    .img_foot {
+        flex-basis: 0 !important;
+        width: 10% !important;
+    }
 }
