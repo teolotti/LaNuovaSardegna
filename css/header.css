@@ -247,7 +247,7 @@
 }
 
 .show{
-    transform: translateX(0px);
+    transform: translateX(0);
 }
 .x{
     display: flex;
@@ -256,6 +256,7 @@
     justify-content: flex-end;
     margin-right: 10px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .top#menu{
@@ -299,7 +300,7 @@ li{
         max-width: 33%;
         margin-left: 10px;
     }
-    .search{
+    .search#main{
         order: 2;
         flex-basis: 33%;
         max-width: 33%;
@@ -322,7 +323,7 @@ li{
 
 
 @media screen and (max-width: 600px) {
-    .title{
+    .title#1{
         order: 1;
         flex-basis: 55%;
     }
@@ -354,7 +355,7 @@ li{
         max-width: 33%;
         margin-left: 10px;
     }
-    .search{
+    .search#main{
         order: 2;
         flex-basis: 33%;
         max-width: 33%;
@@ -369,7 +370,17 @@ li{
     .basic_blue{
         flex-basis: 20%;
     }
+    .basic_blue#news{
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .newsletter{
+        margin-right: 15px;
+    }
     .nav{
         margin-block-start: 10px;
+    }
+    .menu_display{
+        width: 100%;
     }
 }
