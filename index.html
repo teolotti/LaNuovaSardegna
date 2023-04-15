@@ -5,6 +5,8 @@
     <title>La Nuova Sardegna</title>
     <meta name="description"
           content="Tutte le notizie della Sardegna, con foto e video, di cronaca, politica, sport, cultura, spettacoli, economia e tempo libero">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="https://via.placeholder.com/16x16/1021b5/ffffff?text=NS" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
@@ -14,6 +16,176 @@
 
 </head>
 <body>
+<div class="shadow"></div>
+<div class="menu_display">
+    <div class="x">
+        <button class="basic_blue">
+            <span class="img_style">
+                <img src="images/icons8-multiply-32.png" alt="X">
+            </span>
+        </button>
+    </div>
+    <div class="title" >
+        <h1 class="top" id="menu">
+            <nobr>LA NUOVA</nobr>
+        </h1>
+        <h2 class="sub" id="w">
+            Nuova Sardegna
+        </h2>
+    </div>
+    <div class="search">
+        <button class="basic_blue">
+            <span class="img_style">
+                <img src="images/icons8-search-20.svg" alt="Cerca">
+            </span>
+            <span class="item1">
+                CERCA
+            </span>
+        </button>
+    </div>
+    <div class="main">
+        <div class="newsletter">
+            <button class="basic_blue">
+                <span class="img_style">
+                    <img src="images/icons8-mail-24-w.png" alt="Newsletter">
+                </span>
+                <span color="#ffffff">
+                    Iscriviti alla newsletter
+                </span>
+            </button>
+        </div>
+        <div class="user">
+            <div class="Accesso">
+                <button class="basic_blue">
+                        <span class="img_style">
+                            <img src="images/icons8-login-24-w.png" alt="Utente">
+                        </span>
+                        <span >
+                            ACCEDI
+                        </span>
+                </button>
+            </div>
+            <div class="Abbonamento">
+                <button class="basic_abb">
+                        <span class="abb">
+                            ABBONATI
+                        </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="menu_section_title">
+            <h3>
+                Edizioni Locali
+            </h3>
+        </div>
+        <ul>
+            <li>
+                Sassari
+            </li>
+            <li>
+                Alghero
+            </li>
+            <li>
+                Nuoro
+            </li>
+            <li>
+                Olbia
+            </li>
+            <li>
+                Cagliari
+            </li>
+            <li>
+                Oristano
+            </li>
+        </ul>
+    </div>
+    <hr class="line3">
+    <div class="section">
+        <div class="menu_section_title">
+            <h3>
+                Sezioni
+            </h3>
+        </div>
+        <ul>
+            <li>
+                Sardegna
+            </li>
+            <li>
+                Italia Mondo
+            </li>
+            <li>
+                Sport
+            </li>
+            <li>
+                Tempo Libero
+            </li>
+            <li>
+                Video
+            </li>
+            <li>
+                Podcast
+            </li>
+            <li>
+                Speciale Calcio
+            </li>
+        </ul>
+    </div>
+    <hr class="line3">
+    <div class="section">
+        <div class="menu_section_title">
+            <h3>
+                N+
+            </h3>
+        </div>
+        <ul>
+            <li>
+                La Nostra Newsletter
+            </li>
+            <li>
+                Sfoglia il quotidiano
+            </li>
+            <li>
+                Abbonati
+            </li>
+        </ul>
+    </div>
+    <hr class="line3">
+    <div class="section">
+        <div class="menu_section_title">
+            <h3>
+                La Nuova Sardegna
+            </h3>
+        </div>
+        <ul>
+            <li>
+                Redazione
+            </li>
+            <li>
+                Scrivici
+            </li>
+        </ul>
+    </div>
+    <div class="social">
+        <div class="img_social">
+            <button class="basic_blue">
+                <img src="images/icons8-facebook-24-w.png" alt="Facebook">
+            </button>
+        </div>
+        <div class="img_social">
+            <button class="basic_blue">
+                <img src="images/icons8-twitter-24-w.png" alt="Twitter">
+            </button>
+        </div>
+        <div class="img_social">
+            <button class="basic_blue">
+                <img src="images/icons8-instagram-24-w.png" alt="Instagram">
+            </button>
+        </div>
+    </div>
+
+</div>
 <div class="content">
     <header>
         <div class="share">
@@ -79,7 +251,7 @@
                     </button>
                 </div>
                 <div class="Abbonamento">
-                    <button class="basic" id="abb">
+                    <button class="basic_abb">
                         <span class="abb">
                             ABBONATI
                         </span>
@@ -527,6 +699,20 @@
         </div>
     </div>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>$(document).ready(function (){
+    $('.menu').click(function (){
+        $('.menu_display').toggleClass('show');
+        $('.shadow').toggleClass('on');
+    });
+    $('.x').click(function (){
+        $('.menu_display').toggleClass('show');
+        $('.shadow').toggleClass('on');
+    });
+});
+</script>
+
 
 </body>
 </html>

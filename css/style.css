@@ -26,5 +26,6 @@ body{
     margin-right: auto;
     display: block;
     background-color: #ffffff;
+    z-index: 1;
 }
 

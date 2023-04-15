@@ -1,4 +1,6 @@
 
+
+
 .share{
     display: flex;
     flex-direction: row;
@@ -12,7 +14,7 @@
 }
 .basic{
     cursor: pointer;
-    background-color: #ffffff;
+    background-color: transparent;
     border: none;
     display: flex;
     flex-direction: row;
@@ -45,6 +47,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    align-self: normal;
 }
 
 .sfoglia{
@@ -101,7 +104,7 @@
     color: #ffffff;
 
 }
-.basic#abb{
+.basic_abb{
     background-color: #8c131f;
     color: #ffffff;
     border: none;
@@ -113,8 +116,9 @@
     height: 40px;
     margin-left: 5px;
     padding: 10px;
+    cursor: pointer;
 }
-.basic#abb:hover{
+.basic_abb:hover{
     background-color: #6c0f1a;
 }
 
@@ -145,7 +149,7 @@
     font-family: ITCFranklinGothicStd-Book, sans-serif;
     font-size: 14px;
     height: 40px;
-    padding: 10px 2px;
+    padding: 10px 4px;
     cursor: pointer;
 }
 .basic_blue:hover{
@@ -216,7 +220,78 @@
 .line{
     border-top: 1px #000000;
 }
+.shadow{
+    z-index: 50;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    inset: 0;
+    display: none;
+}
+.on{
+    display: block;
+}
+.menu_display{
+    width: 600px;
+    height: 100%;
+    background-color: #004272;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: 0.3s;
+    transform: translateX(-600px);
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.show{
+    transform: translateX(0px);
+}
+.x{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.top#menu{
+    color: #ffffff;
+}
+.sub#w{
+    color: #ffffff;
+}
+.menu_section_title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #ffffff;
+    font-family: PoynterOldstyleDisplay-NarBold, serif;
+    flex-basis: 100%;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: ITCFranklinGothicStd-Book, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+li{
+    line-height: 2.5;
+    margin-left: 20px;
+    flex-basis: 160px;
+    cursor: pointer;
+}
 @media screen and (max-width: 900px) {
     .menu{
         order: 1;
