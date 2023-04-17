@@ -329,8 +329,8 @@ li{
     }
     .sfoglia{
         order: 2;
-        flex-basis: 48%;
-        max-width: 48%;
+        flex-basis: 50%;
+        max-width: 50%;
     }
     .user{
         order: 3;
@@ -348,7 +348,6 @@ li{
     .sub{
         justify-self: flex-end;
     }
-
     .menu{
         order: 1;
         flex-basis: 33%;

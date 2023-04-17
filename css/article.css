@@ -167,6 +167,60 @@
     padding: 10px;
     cursor: pointer;
 }
+.promo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #ffffff;
+    background-color: #a2202a;
+    max-width: 100%;
+    padding: 15px;
+    margin: 10px;
+}
+.promo_title {
+    flex-basis: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: start;
+    font-family: PoynterOldstyleDisplay-NarBold, serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.promo_subtitle {
+    flex-basis: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: start;
+    font-family: PoynterOldstyleDisplay-NarBold, serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.promo_button{
+    margin-block-start: 5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 100%;
+
+}
+.basic_abb#promo{
+    background-color: #ffffff;
+    margin-left: 0;
+}
+.promo_price{
+    flex-basis: 70%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: end;
+    font-family: PoynterOldstyleDisplay-NarBold, serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 @media screen and (max-width: 600px) {
     .big {
