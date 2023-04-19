@@ -12,6 +12,9 @@ body{
     color: #000000;
     background-color: #ffffff;
 }
+.no_scroll{
+    overflow: hidden;
+}
 
 @media (min-width: 1020px){
     .content{
